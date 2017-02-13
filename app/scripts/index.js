@@ -70,7 +70,7 @@ var enemyHit;
   $('.fight-button').on('click', function(event, data){
     event.preventDefault();
 
-    $audio.attr('src', 'images/punch-sound.mp3');
+    $audio.attr('src', './images/punch-sound.mp3');
     $audio[0].play();
 
     $('.enemy').animate({  borderSpacing: 90 }, {
