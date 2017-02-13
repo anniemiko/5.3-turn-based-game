@@ -230,8 +230,8 @@ Enemy.prototype = new Character();
   var luffy = new Hero({
     name: "Luffy",
     move: "Rubber Rubber Bazooka",
-    image: "../images/luffy.png",
-    thumbnail: "../images/luffy-tn.png"
+    image: "/../images/luffy.png",
+    thumbnail: "/../images/luffy-tn.png"
   });
 
   var robin = new Hero({
